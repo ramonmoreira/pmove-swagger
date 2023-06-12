@@ -294,6 +294,10 @@ components:
         receive:
           type: "boolean"
           default: false
+        receiveAvaliable:
+          type: "array"
+          items:
+            type: "string"
         packageUnregistered:
           type: "boolean"
           default: true
